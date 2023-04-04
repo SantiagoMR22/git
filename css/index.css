@@ -1,0 +1,38 @@
+/* selector
+    propiedad: valor;
+    propiedad: valor;
+
+*/
+
+h2 { /* selector global */
+    color: brown;
+    font-size: 45px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+/* selector de clase */
+
+.soloyo {
+    text-align: right;
+}
+
+h1{ /* borde */
+    font-size: 60px;
+    border-top: solid 5px black;
+    border-bottom: dotted 5px black;
+    border-right: dashed 5px black;
+    border-left: dashed 5px black;
+
+    /* relleno */
+    padding-top: 35px;
+    padding-left: 60px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+
+    /* margen */
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 100px;
+}   
