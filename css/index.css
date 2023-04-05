@@ -8,7 +8,7 @@ h2 { /* selector global */
     color: brown;
     font-size: 45px;
     background-color: aquamarine;
-    text-align: center;
+    /* text-align: center; */
 }
 
 /* selector de clase */
@@ -36,3 +36,32 @@ h1{ /* borde */
     margin-left: 150px;
     margin-right: 100px;
 }   
+
+.centrar {
+    text-align: center;
+}
+
+.otroParrafo{
+    font-size: 25px;
+}
+
+.miColor{
+    color: blueviolet;
+}
+
+/* ul{
+    text-align: center;
+} */
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+}
